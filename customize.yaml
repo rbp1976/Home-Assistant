@@ -1,30 +1,28 @@
+sensor.dark_sky_summary:
+  friendly_name: Todays Forecast
 sensor.dark_sky_temperature:
   friendly_name: Temperature
-sensor.dark_sky_humidity:
-  friendly_name: Current Humidity
-  icon: mdi:water-percent
-sensor.dark_sky_hourly_summary:
-  friendly_name: Summary
-sensor.dark_sky_daily_summary:
-  friendly_name: Today's Forecast
-sensor.dark_sky_precipy_intensity:
-  friendly_name: Rain
-sensor.dark_sky_wind_bearing:
-  friendly_name: Current Wind Bearing
-  icon: mdi:weather-windy
-sensor.dark_sky_wind_speed:
-  friendly_name: Current Wind Speed
-  icon: mdi:weather-windy
 sensor.dark_sky_apparent_temperature:
   friendly_name: Feels Like
 sensor.dark_sky_daily_high_temperature:
-  friendly_name: Today's High Temperature
+  friendly_name: Todays High Temperature
 sensor.dark_sky_daily_low_temperature:
-  friendly_name: Today's Low Temperature
+  friendly_name: Todays Low Temperature
+sensor.dark_sky_wind_speed:
+  friendly_name: Current Wind Speed
+  icon: mdi:weather-windy
+sensor.dark_sky_humidity:
+  friendly_name: Current Humidity
+  icon: mdi:water-percent
 sensor.dark_sky_cloud_coverage:
   friendly_name: Cloud Coverage
 sensor.dark_sky_precip:
   friendly_name: Precipitation Type
+sensor.dark_sky_precip_probability:
+  friendly_name: 
+sensor.dark_sky_daily_summary:
+  friendly_name: Daily Summary
+
 light.her_lamp:
   friendly_name: Lauri's Lamp
 light.his_lamp:
@@ -35,11 +33,14 @@ group.master_bedroom:
 media_player.bedroom_chromecast:
   hidden: true
 
+sensor.dark_sky_wind_bearing:
+  hidden: true
 sensor.dark_sky_pressure:
   hidden: true
 sensor.dark_sky_daily_high_apparent_temperature:
   hidden: true
-
+sensor.dark_sky_hourly_summary:
+  hidden: true
 sensor.dark_sky_daily_low_apparent_temperature:
   hidden: true
 sensor.dark_sky_daily_max_precip_intensity:
@@ -59,6 +60,4 @@ sensor.dark_sky_precip_intensity:
 sensor.dark_sky_precip_probability:
   hidden: true
 sensor.dark_sky_pressure:
-  hidden: true
-sensor.dark_sky_summary:
   hidden: true
