@@ -9,7 +9,7 @@ homeassistant:
   unit_system: imperial
   time_zone: Europe/Madrid
 
-#  customize: !include customize.yaml
+  customize: !include customize.yaml
 
 frontend:
 discovery:
