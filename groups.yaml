@@ -1,0 +1,78 @@
+############################################################
+#
+#    Groups
+#
+############################################################
+   
+ living_room:
+  view: yes
+  name: Living Room
+  entities: 
+   - media_player.living_room
+   - media_player.mibox3
+   
+ master_room:
+  view: yes
+  name: Master Bedroom
+  entities: 
+   - group.master_lights
+   - media_player.bedroom_chromecast
+   
+ environment:
+  view: yes
+  name: Weather
+  entities:
+   - sun.sun
+   - group.weather_darksky
+   
+ master_lights:
+  name: Master Bedroom Lights
+  entities:
+   - light.her_light
+   - light.his_light
+   
+ media_players:
+  name: Media Players
+  view: yes
+  entities:
+   - media_player.living_room
+   - media_player.bedroom_chromecast
+   - media_player.mibox3
+        
+ network:
+   name: Network
+   view: yes
+   entities: 
+    - group.computer
+    - group.internet
+    
+ weather_darksky:
+  name: Weather Information
+  entities:
+   - sensor.dark_sky_summary
+   - sensor.dark_sky_temperature
+   - sensor.dark_sky_apparent_temperature
+   - sensor.dark_sky_daily_high_temperature
+   - sensor.dark_sky_daily_low_temperature
+   - sensor.dark_sky_wind_speed
+   - sensor.dark_sky_humidity
+   - sensor.dark_sky_cloud_coverage
+   - sensor.dark_sky_precip
+   - sensor.dark_sky_precip_probability
+   - sensor.dark_sky_daily_summary
+
+ computer:
+  name: Computer Analytics
+  entities: 
+   - sensor.cpu
+   - sensor.cpu_use
+   - sensor.disk_use_home
+   - sensor.ram_free
+   
+ internet:
+   name: Internet
+   entities:
+    - sensor.speedtest_download
+    - sensor.speedtest_ping
+    - sensor.speedtest_upload
+   
