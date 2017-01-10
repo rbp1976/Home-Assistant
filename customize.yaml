@@ -33,6 +33,18 @@ sensor.dark_sky_precip_probability:
 sensor.dark_sky_daily_summary:
   friendly_name: Daily Summary
 
+sensor.cpu:
+  friendly_name: CPU
+  
+sensor.cpu_use:
+  friendly_name: CPU Use
+  
+sensor.disk_use_home
+  friendly_name: Disk Use /home
+  
+sensor.ram_free:
+  friendly_name: Ram Free
+
 sensor.speedtest_download:
    friendly_name: Download Speed
    icon: mdi:download
